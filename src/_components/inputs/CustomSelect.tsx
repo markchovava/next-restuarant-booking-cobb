@@ -9,7 +9,7 @@ interface CustomSelectProps {
   placeholder?: string;
   className?: string;
   disabled?: boolean;
-  options?: string[] | number[]
+  options?: number[];
 }
 
 export const CustomSelect: React.FC<CustomSelectProps> = ({
